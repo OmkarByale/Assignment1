@@ -8,9 +8,6 @@ public interface IAutoConstant {
 	String GECKO_KEY = "webdriver.gecko.driver";
 	String GECKO_VALUE = "./driver/geckodriver.exe";
 	
-	String IE_KEY = "webdriver.ie.driver";
-	String IE_VALUE = "./driver/IEDriverServer.exe";
-	
 	long ITO=10;
 
 

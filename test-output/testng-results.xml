@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Price in Amazon : Rs. 47900.0]]>
+    </line>
+    <line>
+      <![CDATA[Price in Flipkart : Rs. 53999.0]]>
+    </line>
+    <line>
+      <![CDATA[Best price is in Amazon Rs. 47900.0]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="112933" started-at="2020-01-11T05:45:45Z" finished-at="2020-01-11T05:47:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="112933" started-at="2020-01-11T05:45:45Z" finished-at="2020-01-11T05:47:38Z">
+      <class name="com.assign1.scripts.PriceTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.assign1.scripts.PriceTest@6d78f375]" name="openBrowser" is-config="true" duration-ms="8423" started-at="2020-01-11T11:15:45Z" finished-at="2020-01-11T11:15:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.assign1.scripts.PriceTest@6d78f375]" name="openApplication" is-config="true" duration-ms="4157" started-at="2020-01-11T11:15:54Z" finished-at="2020-01-11T11:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testPrice()[pri:0, instance:com.assign1.scripts.PriceTest@6d78f375]" name="testPrice" duration-ms="99283" started-at="2020-01-11T11:15:58Z" finished-at="2020-01-11T11:17:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Price in Amazon : Rs. 47900.0]]>
+            </line>
+            <line>
+              <![CDATA[Price in Flipkart : Rs. 53999.0]]>
+            </line>
+            <line>
+              <![CDATA[Best price is in Amazon Rs. 47900.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testPrice -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.assign1.scripts.PriceTest@6d78f375]" name="closeBrowser" is-config="true" duration-ms="1037" started-at="2020-01-11T11:17:37Z" finished-at="2020-01-11T11:17:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.assign1.scripts.PriceTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

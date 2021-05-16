@@ -11,12 +11,7 @@ import com.assign1.pages.FlipkartPage;
 
 public class PriceTest extends BaseTest {
 	
-	@Test
-	public void testX()
-	{
-		System.out.println("GitX modified");
 	
-	}
 
 	@Test
 	public void testPrice()
